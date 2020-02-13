@@ -1,0 +1,5 @@
+{
+  "starkcore": {
+    "apiTest": "{starkcore {testStarkcoreLtlAuth(credentials: { username: \"$username\", password: \"$password\" }) { canLogin { urlTested status method docs } canGetShipment { urlTested status method docs } canGetQuote { urlTested status method docs } } } }"
+  }
+}
