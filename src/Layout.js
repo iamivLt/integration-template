@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { App as API } from './API/src/App';
+import { index as Excel } from './Excel/src/index';
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
@@ -43,7 +44,9 @@ export default class LayoutComponent extends Component {
                 <Route path='/API'>
                   <API />
                 </Route>
-                <Route path='/ExcelSheet'>{/* <API /> */}</Route>
+                <Route path='/ExcelSheet'>
+                  <Excel />
+                </Route>
                 <Route path='/DMTool'>{/* <API /> */}</Route>
               </Switch>
             </Content>

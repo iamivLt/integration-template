@@ -1,0 +1,77 @@
+[
+  {
+    "sheet": "shipments",
+    "payload": [
+      {
+        "column": "Account",
+        "structure": "It's all good",
+        "dependency": "Error with table ID"
+      },
+      {
+        "column": "bill",
+        "structure": "Nothing to say",
+        "dependency": "Error with table ID"
+      },
+      {
+        "column": "consignee",
+        "structure": "It's all good",
+        "dependency": "Error with table ID"
+      },
+      {
+        "column": "shipper",
+        "structure": "It's all good",
+        "dependency": "Error with table ID"
+      }
+    ]
+  },
+  {
+    "sheet": "quotes",
+    "payload": [
+      {
+        "column": "Tact",
+        "structure": "It's all good",
+        "dependency": "Error with table ID"
+      },
+      {
+        "column": "bill",
+        "structure": "Nothing to say",
+        "dependency": "Error with table ID"
+      },
+      {
+        "column": "consignee",
+        "structure": "It's all good",
+        "dependency": "Error with table ID"
+      },
+      {
+        "column": "shipper",
+        "structure": "It's all good",
+        "dependency": "Error with table ID"
+      }
+    ]
+  },
+  {
+    "sheet": "contacts",
+    "payload": [
+      {
+        "column": "name",
+        "structure": "It's all good",
+        "dependency": "Error with table ID"
+      },
+      {
+        "column": "bill",
+        "structure": "Nothing to say",
+        "dependency": "Error with table ID"
+      },
+      {
+        "column": "consignee",
+        "structure": "It's all good",
+        "dependency": "Error with table ID"
+      },
+      {
+        "column": "shipper",
+        "structure": "It's all good",
+        "dependency": "Error with table ID"
+      }
+    ]
+  }
+]

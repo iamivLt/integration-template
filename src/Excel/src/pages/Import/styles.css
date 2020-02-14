@@ -1,0 +1,13 @@
+.import {
+  height: 100vh;
+}
+.import-content {
+  padding: 1rem 1rem 0 1rem;
+}
+.import-steps-content {
+  padding: 2rem 1rem 0 1rem;  
+}
+.import-steps-action {
+  position: absolute;
+  bottom: 2rem;
+}
